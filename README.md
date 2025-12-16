@@ -52,7 +52,16 @@ Clone the repository:
 
 ## Model Evaluation
 #### Model Summary
+1. The model uses LSTM neural networks to predict stock prices by learning patterns from past data. <br>
+2. It has four LSTM layers to capture trends over time, with small dropout layers to avoid overfitting. <br>
+3. The final layer predicts the next stock price based on learned patterns. <br>
+4. Overall, it’s designed to forecast future stock prices by understanding past price movements. <br>
+5. The model has 536,285 parameters in total, of which 178,761 are trainable. <br>
+6. There are no non-trainable parameters, and the optimizer uses 357,524 parameters. <br>
+7. The total model size is approximately 2.05 MB, making it compact yet effective for stock price prediction. <br>
+
 ![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/ModelSummary.png)
+
 
 #### Original Price V/S Predicted Price
 ![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/Prediction_VS_Actual.png)
