@@ -31,7 +31,7 @@ Investors and firms need reliable tools to forecast stock price movements from h
 ![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/100_Days.png)
 
 #### 200-day moving average of the closing price of the stock
-![image alt](https://github.com/SundeepChaluvadi/Email-Spam-Classifier/blob/0549ae22894d620ff470104b36c29773be1f9e34/Images/NumOfWords_Count.png)
+![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/417be2c79a4e28abcce49291bdbcb5bd1e54474f/Images/200_Days.png)
 
 
 ## Dependencies
