@@ -1,29 +1,68 @@
-# Credit Risk Modeling
-A machine learning project that predicts a borrower’s likelihood of loan default for data science and finance applications.
+# Stock Price Prediction Model
+Developed a machine learning model that analyzes historical market data and trends to predict future stock prices and support data-driven investment decisions.
 
 ## Business Problem
-Financial institutions need to assess the likelihood of loan applicants defaulting to minimize losses and make informed lending decisions. This project builds a machine learning model that predicts whether a borrower is a good or bad credit risk, helping banks make data-driven lending decisions and reduce credit risk.
+Investors and firms need reliable tools to forecast stock price movements from historical data to reduce risk and make informed trading decisions.
 
-## Data Preprocessing
-#### Handling Missing Values
-Checked the dataset for missing values and removed rows with missing data to ensure a clean dataset for modeling.
+## Data Preprocessing, Handling and Analysis
+#### 1. Collect Data – Gather historical stock prices using yfinance.
+
+#### 2. Preprocess Data – Clean, normalize, and handle missing values.
+
+#### 3. Feature Engineering – Create features like moving averages, volume, etc.
+
+#### 4. Split Data – Divide into training and testing sets.
+
+#### 5. Build Model – Choose an ML model (e.g., LSTM).
+
+#### 6. Train Model – Fit the model on training data.
+
+#### 7. Evaluate Model – Check performance on test data using metrics.
+
+#### 8. Make Predictions – Forecast future stock prices.
+
+#### 9. Visualize Results – Plot actual vs predicted prices.
 
 ## Data Visualization
-#### Distributions of Sex, Job, Housing, Saving accounts, Checking account, Purpose
-![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Distributions.png)
+#### Stock Data - GOOG
+![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/Stock%20Data.png)
+
+#### 100-day moving average of the closing price of the stock
+![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/100_Days.png)
+
+#### 200-day moving average of the closing price of the stock
+![image alt](https://github.com/SundeepChaluvadi/Email-Spam-Classifier/blob/0549ae22894d620ff470104b36c29773be1f9e34/Images/NumOfWords_Count.png)
+
 
 ## Dependencies
 ```bash
   pip install -r requirements.txt
 ```
 
+## Demo
+https://stock-price-prediction-model-123.streamlit.app/
+
 ## Installation
 Clone the repository:
 
 ```bash
-  git clone https://github.com/SundeepChaluvadi/Credit-Risk-Modeling.git
-  cd credit-risk-modeling
+  git clone https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model.git
+  cd Stock-Price-Prediction-Model
 ```
 
+## Model Evaluation
+#### Model Summary
+![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/ModelSummary.png)
+
+#### Original Price V/S Predicted Price
+![image alt](https://github.com/SundeepChaluvadi/Stock-Price-Prediction-Model/blob/db0abd0b4a44b2bc1446836c469a2eac05831ba8/Images/Prediction_VS_Actual.png)
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/sundeep-chaluvadi))
+
 ## Sources
-https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
+Data for this project is sourced using the yfinance library, which retrieves historical stock price data directly from Yahoo Finance.
+
+```python
+import yfinance as yf
